@@ -1,0 +1,40 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", serif;
+  line-height: 1.4em;
+}
+
+.box {
+  background: #f4f4f4;
+  border: 1px solid #333;
+  padding: 20px;
+  margin-bottom: 15px;
+}
+
+#boks-2 {
+  float: left;
+  width: 68%;
+}
+
+#boks-3 {
+  float: right;
+  width: 30%;
+}
+
+.clr {
+  clear: both;
+}
+
+.container {
+  width: 960px;
+  margin: 30px auto;
+}
+
+.box p {
+  text-align: center;
+}
